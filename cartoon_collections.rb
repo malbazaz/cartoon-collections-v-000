@@ -28,8 +28,8 @@ def find_the_cheese(array)
   array.select do |taster|
     i=0 
     while i<taster.length 
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  taster == cheese_types[i]
+  cheese_types = ["cheddar", "gouda", "camembert"] taster == cheese_types[i]
+    break
   i+=1
 end
 end 

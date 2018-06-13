@@ -15,7 +15,7 @@ array.collect do |calls|
   newcalls_cap = calls.capitalize
 newarray<< "#{newcalls_cap}!"
 end 
-puts newarray
+newarray
 end
 
 def long_planeteer_calls# code an argument here
